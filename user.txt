@@ -1,0 +1,14 @@
+ahmed.gaber@linkdev.com
+Dev@123456
+
+
+Build a custom menu control for Umbraco v17.1
+
+Include actions for adding, editing, and deleting nodes
+
+Provide the ability to create and manage child nodes
+
+Each node contains
+Name
+URL
+Content Picker
