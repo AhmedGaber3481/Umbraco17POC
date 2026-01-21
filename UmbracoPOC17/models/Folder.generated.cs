@@ -16,7 +16,7 @@ using Umbraco.Cms.Infrastructure.ModelsBuilder;
 using Umbraco.Cms.Core;
 using Umbraco.Extensions;
 
-namespace LinkDev.UmbracoBase.PublishedContentModels
+namespace UmbracoPOC17.PublishedContentModels
 {
 	/// <summary>Folder</summary>
 	[PublishedModel("Folder")]

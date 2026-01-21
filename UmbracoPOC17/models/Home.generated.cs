@@ -16,7 +16,7 @@ using Umbraco.Cms.Infrastructure.ModelsBuilder;
 using Umbraco.Cms.Core;
 using Umbraco.Extensions;
 
-namespace LinkDev.UmbracoBase.PublishedContentModels
+namespace UmbracoPOC17.PublishedContentModels
 {
 	/// <summary>Home</summary>
 	[PublishedModel("home")]
@@ -50,11 +50,11 @@ namespace LinkDev.UmbracoBase.PublishedContentModels
 		// properties
 
 		///<summary>
-		/// Menu
+		/// menu2
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "17.1.0+2832436")]
 		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
-		[ImplementPropertyType("menu")]
-		public virtual string Menu => this.Value<string>(_publishedValueFallback, "menu");
+		[ImplementPropertyType("menu2")]
+		public virtual string Menu2 => this.Value<string>(_publishedValueFallback, "menu2");
 	}
 }

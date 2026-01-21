@@ -1,0 +1,21 @@
+{
+  "$schema": "../../umbraco-package-schema.json",
+  "name": "Menu Control",
+  "version": "0.1.0",
+  "extensions": [
+    {
+      "type": "propertyEditorUi",
+      "alias": "MenuControlCustom",
+      "name": "Menu Control Custom",
+      "element": "/App_Plugins/CustomMenu/umbracomenu.js",
+      "elementName": "menu-control-custom",
+      "meta": {
+        "label": "Menu Control Custom",
+        "icon": "icon-branch",
+        "group": "Common",
+        "propertyEditorSchemaAlias": "Umbraco.Plain.String"
+      }
+    }
+  ]
+}
+

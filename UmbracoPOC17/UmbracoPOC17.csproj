@@ -5,6 +5,7 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="App_Plugins\CustomMenu\umbraco-package.json" />
     <Content Include="App_Plugins\MenuControl\umbraco-package.json" />
   </ItemGroup>
 
@@ -20,6 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="App_Plugins\CustomMenu\umbracomenu.js" />
     <None Include="App_Plugins\MenuControl\menu-control.element.js" />
     <None Include="App_Plugins\MenuControl\README.md" />
   </ItemGroup>
