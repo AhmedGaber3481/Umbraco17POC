@@ -1,0 +1,19 @@
+https://docs.umbraco.com/umbraco-cms/tutorials/creating-a-property-editor
+
+https://docs.umbraco.com/umbraco-cms/tutorials/creating-a-property-editor/adding-configuration-to-a-property-editor
+
+https://docs.umbraco.com/umbraco-cms/customizing/development-flow/vite-package-setup
+
+
+npm install -g npm
+
+
+npm create vite@latest
+npm install
+
+
+npm install --legacy-peer-deps -D @umbraco-cms/backoffice@17.1
+or
+npm install -D @umbraco-cms/backoffice@17.1
+
+"propertyEditorSchemaAlias": "Umbraco.Plain.String"
